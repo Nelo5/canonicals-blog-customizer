@@ -10,7 +10,16 @@
   flex-shrink: 0;
   border-right: 1px;
   background-color: #000;
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, background-color 0.5s ease;
+
+}
+
+.container:hover{
+  background-color:#FFC802
+}
+
+.container:active{
+  background-color:#000
 }
 
 .container_open {
